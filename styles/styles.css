@@ -1,24 +1,44 @@
+/* root variables */
+:root {
+    --primary-color: darkblue;
+    --secondary-color: white;
+    --border-color: black;
+    --shadow-color: gray;
+    --bg-light: #eee;
+    
+}
+/* navigation */
 nav { 
-    background-color: darkblue;
+    background-color: var(--primary-color);
      padding: 10px;
 }
 nav a {
     color: white; 
     text-decoration: none; 
     margin: 10px;
+    display: block;
+    padding: 20px;
 }
+/* heading */
 h1 {
     font-size: 2em;
     text-align: center;
+    color: var(--primary-color);
 }
+/* images */
 img {
     width: 100px;
     height: auto;
+    border: 1px solid var(--border-color);
+    padding: 2px;
+    box-shadow: 0 0 30px var(--shadow-color);
 }
+/* main content */
 main {
     max-width: 840px;
     margin: 0 auto;
 }
+/* aside */
 aside {
     width: 20rem;
     margin: 1rem;
@@ -32,8 +52,13 @@ aside img{
     width: 200px;
     height: auto;
 }
+/* paragraph */
+p {
+    padding: 10px;
+}
+/* footer */
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: 1px solid var(--border-color);
     text-align: center;
 }
