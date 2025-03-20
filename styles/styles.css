@@ -44,6 +44,12 @@ main img{
     margin: 0 0 10px 10px;
     width: 159px;
 }
+/*Paragraph */
+p {
+    padding: 0;
+    margin: 0;
+    line-height: 1.5;
+}
 /* Main Content */
 main {
     max-width: 840px;
