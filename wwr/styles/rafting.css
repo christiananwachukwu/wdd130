@@ -1,0 +1,91 @@
+/* Define color variables */
+:root {
+    --primary-color: #127CA5;
+    --secondary-color: #028D15;
+    --accent1-color: #B57C28;
+    --accent2-color: #BA5D3B;
+    --heading-font: "Ubuntu", sans-serif;
+    --text-font: "Roboto", sans-serif;
+}
+
+/* Apply a clean style to the entire page */
+body {
+    font-family: var(--text-font);
+    font-weight: 400; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--primary-color);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+/* Hero section */
+.hero {
+    position: relative;
+    text-align: center;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: nar(--accent1-color);
+    padding: 10px;
+}
+
+/* Sections */
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: var(--secondary-color);
+}
+
+/* Call to Action Button */
+button {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: darkgreen;
+}
+/* Quote Block */
+blockquote {
+    border-left: 5px solid var(--accent1-color);
+    padding: 10px;
+    font-style: italic;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--accent2-color);
+    color: white;
+}
+/* Links */
+a:hover {
+    color: var(--accent2-color);
+}
