@@ -15,40 +15,69 @@
 <body>
     <header>
         <img src="images/logo.webp" alt="Whitewater Rafting Logo">
+        <h1>Whitewater Rafting Adventures</h1>
         <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Rafting Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Rafting Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>  
         </nav>
     </header>
     <main>
         <div class="hero">
             <img src="images/hero.webp" alt="Rafting Adventure">
-            <h1>Whitewater Rafting Adventures</h1>
-            <article>
-                <img src="images/happy-client.webp" alt="Happy Client">
-                <p>Enjoy the thrill of rafting with us. We offer the best rafting adventures!</p>
-            </article>
+            <h2>Whitewater Rafting Adventures</h2>
         </div>
-        <section>         
-            <h2>History</h2>
+        <!-- Fixed article structure-->
+         <section>
+            <h2>Client Testimonials</h2>
+            <article>
+                <h3>Our Happy Clients</h3>   
+                  <img src="images/happy-client.webp" alt="Happy Client">
+                  <p>Enjoy the thrill of rafting with us. We offer the best rafting adventures!</p>
+            </article>
+         </section>
+        <section class="History-container">         
+            <h3>Our History</h3>
             <p>Our company started with a passion for adventure and a love for the water...</p>
         </section>
         <section>
-            <h2>Adventure Awaits You!</h2>
-            <img src="images/rafting-adventure.webp" alt="Rafting Image 1">
-            <img src="images/rafting-adventure2.webp" alt="Rafting Image 2">
-            <img src="images/rafting-adventure3.webp" alt="Rafting Image 3">
-            <img src="images/rafting-adventure4.webp" alt="Rafting Image 4">
-            <img src="images/rafting-adventure5.webp" alt="Rafting Image 5">
+            <h3>Adventure Awaits You!</h3>
+            <div class="adventure-gallery">
+                <figure>
+                   <img src="images/rafting-adventure.webp" alt="Joy in the Air">
+                   <figcaption>Joy in the Air</figcaption>
+                </figure>
+                <figure>
+                   <img src="images/rafting-adventure2.webp" alt="Blue waters">
+                   <figcaption>Blue waters</figcaption>
+                </figure>
+                <figure>  
+                    <img src="images/rafting-adventure3.webp" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                     <img src="images/rafting-adventure4.webp" alt="Big Mallard">
+                     <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                     <img src="images/rafting-adventure5.webp" alt="Nature Springs">
+                     <figcaption>Nature Springs</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
     <footer>
+        <div class="footer-container">
         <p>&copy; 2025 Whitewater Rafting Co. | Created by Christiana Nwachukwu</p>
-        <a href="#"><img src="images/facebook-64.webp" alt="Facebook"></a>
-        <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
-        <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+            <div class="footer-socials">
+             <a href="#"><img src="images/facebook-64.webp" alt="Facebook"></a>
+             <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+             <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
