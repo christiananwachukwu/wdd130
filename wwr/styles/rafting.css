@@ -72,33 +72,34 @@ nav a {
 /* Sections */
 section h2 {
     text-align: center;
-    .adventure-gallery {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-    }
-    .adventure-gallery {
-        display: flex;
-        justify-content: space-between;
-        gap: 15px;
-        flex-wrap: wrap;
-    }
-    .adventure-gallery figure {
-        flex: 1 1 calc(20% - 15px);
-        text-align: center;
-        max-width: 200px;
-    }
-    .adventure-gallery img {
-        width: 100%;
-        max-width: 200px;
-        height: auto;
-        border-radius: 8px;
-    }
-    .adventure-gallery figcaption {
-        font-size: 14px;
-        margin-top: 5px;
-    }
+}
+/* Adventure Gallery */
+.adventure-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+.adventure-gallery {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.adventure-gallery figure {
+    flex: 1 1 calc(20% - 15px);
+    text-align: center;
+    max-width: 200px;
+}
+.adventure-gallery img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+.adventure-gallery figcaption {
+    font-size: 14px;
+    margin-top: 5px;
 }
 /* Floating image */
 .float-img{
