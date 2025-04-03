@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Poll Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>Wdd130 | HTML Form | User Poll</h1>
+    </header>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <div class="form-item column2">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required>   
+            </div>
+            <div class="form-item column2">
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail" required>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Survey Questions</legend>
+            <div class="form-item column1">
+                <label for="favorite-browser">1. What is your favorite internet browser?</label>
+                <select id="favorite-browser" name="favorite-browser">
+                    <option value="chrome">Google Chrome</option>
+                    <option value="edge">Microsoft Edge</option>
+                    <option value="explorer">Internent Explorer</option>
+                    <option value="yahoo">Yahoo</option>
+                    <option value="kiwi">Kiwi Browser</option>
+                    <option value="bing">Bing Browser</option>
+                </select>
+            </div>
+            <div class="form-item column1">
+                <label for="places-lived">2. List the places you have lived:</label>
+                <textarea id="places-lived" name="places-lived" rows="3" placeholder="Enter names of places here"></textarea>
+            </div>
+            <div class="form-item column1">
+                <label for="pet">2. Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <p>&copy; 2025 User Poll Form</p>
+    </footer>
+</head>
+</body>   
+</html>
+
