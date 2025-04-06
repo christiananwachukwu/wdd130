@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Us - Whitewater Rafting Adventures">
+    <meta name="author" content="Christiana Nwachukwu">
+    <title>Contact Us - Whitewater Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/logo.webp" alt="Whitewater Rafting Logo">
+        <nav role="navigation" aria-label="Main Navigation">
+            <a href="index.html" aria-label="Home">Home</a>
+            <a href="about.html" aria-label="About Us"></a>
+            <a href="trips.html" aria-label="Rafting Trips"></a>
+            <a href="contact.html" aria-label="Contact">Contact</a> 
+        </nav>
+    </header>
+    <main>
+        <div class="contact-hero">
+            <h1>Contact Us</h1>
+            <p>We are always ready to serve you.Kindly fill the form below and our team will reach you.</p>
+        </div>
+         <section class="contact-form" role="form" aria-labelledby="contact-form">
+            <h2>Drop your message</h2>
+            <form action="/submit-form" method="post"></form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+            <label for="purpose">Purpose of Message</label>
+            <div>
+                <input type="radio" id="general-inquiry" name="purpose" value="General Inquiry">
+                <label for="general-inquiry">General Inquiry</label>
+            </div>
+            <div>
+                <input type="radio" id="reservation-questions" name="purpose" value="Reservation Questions">
+                <label for="reservation-questions">Reservation Questions</label>
+            </div>
+            <div>
+                <input type="radio" id="suggestions" name="purpose" value="Website Suggestions">
+                <label for="suggestions">Website Suggestions</label>
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="5" required></textarea>
+            </div>
+            <div>
+                <input type="checkbox" id="subscibe-newsletter" name="subscibe-newsletter">
+                <label for="subscibe-newsletter">Subscribe to our monthly newsletter</label>
+            </div>
+            <button type="submit">Send Message</button>
+             </form>
+        </section>
+
+        <section class="contact-info">
+            <h2>Our Location</h2>
+            <p>Umuhu 1 Atta Ieduru, L.G.A. Imo State, 461103</p>
+            <h3>Phone</h3>
+            <p>+2348063862357</p>
+            <h3>Email</h3>
+            <p>For more inquires,email us today at: <a href="mailto:cnwachukwu4@byupathway.edu">cnwachukwu4@byupathway.edu</a></p>
+            <h3>Meet Our Team</h3>
+            <div class="employee-profiles">
+                <div class="employee">
+                    <img src="images/gina-chukwu.webp" alt="Emlopyee 1">
+                    <p>Gina Chukwu - Desk Officer</p>
+                </div>
+                <div class="employee">
+                    <img src="images/flora-white.webp" alt="Employee 2">
+                    <p>Flora White - Sales Representative</p>
+                </div>
+                <div class="employee">
+                    <img src="images/simon-aka.webp" alt="Employee 3">
+                    <p>Simon Aka - Managing Director</p>
+                </div>
+            </div>
+            <h2>Follow Us</h2>
+            <div class="social-links"> 
+                <a href="#" aria-label="Facebook"><img src="images/facebook-64.webp" alt="Facebook"></a>
+                <a href="#" aria-label="Twitter"><img src="images/twitter.webp" alt="Twitter"></a>
+                <a href="#" aria-label="Instagram"></a><img src="images/instagram.webp" alt="Instagram"></a>
+            </div>
+            <!--Google Map Embeded-->
+            <h3>Find Us on the Map</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31764.984325193545!2d7.109891225481323!3d5.622540138932473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1042ff256336708b%3A0x4db5eccc8e9c66ac!2sAtta%2C%20Imo!5e0!3m2!1sen!2sng!4v1743949054255!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" width="600" height="450" frameborder="0" style="border:0"allowfullscreen></iframe>  
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Whitewater Rafting Co.| Created by Christiana Nwachukwu | https://app.moqups.com/WuvqRjtDgTzrFhybsgY9XkbQYuLb9g11/view/page/a8b49fd9f</p>
+    </footer>
+</body>
+</html>
