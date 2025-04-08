@@ -165,3 +165,8 @@ main{
     padding: 0;
     margin: 0;
 }
+.google-map{
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+}
