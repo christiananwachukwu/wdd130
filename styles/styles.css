@@ -49,6 +49,7 @@ main img{
     float: right;
     margin: 0 0 10px 10px;
     width: 159px;
+    height: auto;
 }
 /*Paragraph */
 p {
