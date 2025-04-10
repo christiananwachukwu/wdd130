@@ -139,7 +139,7 @@ footer {
     align-items: center;
     padding: 10px;
     background-color: 
-    var(--accent2-color);
+var(--accent2-color);
     color: white;
 }
 .footer-socials {
